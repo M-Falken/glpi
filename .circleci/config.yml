@@ -66,6 +66,7 @@ shared: &shared
         name: sensiolabs/security-checker
         command: vendor/bin/security-checker security:check
 jobs:
+ build:
   "php5.6":
     <<: *shared
     docker:
